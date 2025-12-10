@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { fetchRandomGif } from "../api/gifApi";
+import { fetchRandomGif } from "./gifApi";
 
 const RandomGif = ({ isAuthenticated, onAuthRequired }) => {
   const [gif, setGif] = useState(null);
