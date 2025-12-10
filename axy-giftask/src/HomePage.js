@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import RandomGif from '../components/RandomGif';
+import RandomGif from './RandomGif';
 
 const HomePage = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
